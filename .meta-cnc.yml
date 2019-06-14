@@ -1,7 +1,7 @@
 
 name: Terraform Backend (Azure)
 label: Terraform Backend (Azure)
-description: Creates a Terraform remote backend with state locking in Amazon S3 and DynamoDB.
+description: Creates a Terraform remote backend with state locking in Azure.
 type: terraform
 extends:
 
