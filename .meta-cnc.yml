@@ -20,7 +20,7 @@ variables:
     type_hint: string
   - name: azure_client_secret
     description: Azure Application Client Secret
-    type_hint: passsword
+    type_hint: password
   - name: azure_location
     description: Azure Location
     default: choices
