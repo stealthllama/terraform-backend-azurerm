@@ -16,10 +16,15 @@
 
 output "storage_account_name" {
     value = "${azurerm_storage_account.tfstate-sa.name}"
-    description = "Terraform remote state storage account"
+    description = "Terraform backend storage account"
 }
 
-output "storage_account_access_key" {
+output "access_key" {
     value = "${azurerm_storage_account.tfstate-sa.primary_access_key}"
-    description = "Terraform remote state storage account access key"
+    description = "Terraform backend storage account access key"
+}
+
+output "container_name" {
+    value = "${azurerm_storage_container.tfstate-blob.name}"
+    description = "Terraform backend storage container name"
 }
