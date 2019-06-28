@@ -1,2 +1,2 @@
-# AzureBackendSkillet
-A skillet for creating a Terraform backend with state locking in Azure.
+# terraform-backend-azurerm
+A Terraform plan for building a state locking backend in Azure.
