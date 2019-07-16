@@ -7,7 +7,7 @@ By default, Terraform stores [state](https://www.terraform.io/docs/state/index.h
 Fortunately, Terraform supports [remote state](https://www.terraform.io/docs/state/remote.html) management using a number of different [backend](https://www.terraform.io/docs/backends) solutions in which to centrally store state information.  Many of these backends also support [state locking](https://www.terraform.io/docs/state/locking.html) to ensure that only one team member at a time can make changes to the infrastructure.
 
 ## Implementation
-The Terraform plan contained in this repository will create a backend in Azure for state file storage and a DynamoDB table for locking operations.  This backend can be creating using the following steps:
+The Terraform plan contained in this repository will create a backend in Azure for state file storage and locking operations.  This backend can be creating using the following steps:
 
 1. Clone the repository to your local machine.
 
